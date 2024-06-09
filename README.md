@@ -1,8 +1,8 @@
 # MyToken
-This solidity program basically used to mint and burn a specific token that is mentioned in the program. The main purpose of this program is to get the normal understanding about the basic conepts of solidity like- variables, mapping, function, conditional statements etc.
+In the metacraft we get the information about solidity. The solidity basically tells the use of burn and mint function. The main purpose of these function are to know the concept of solidity  such as - variables ,function string etc .
 
 ## Description
-This program is written in solidity which is mostly used to build smart contracts. In this program we have created a smart contract named as MyFirstToken. In this contract I have specified the name of the token and the total supplied tokens to different addresses. After that we have created two functions for transaction of the tokens. First function is to mint (add) tokens and the second one is for burn (deducting) tokens from the specified address. These addresses are mapped with balances which holds the value of the tokens in that particular address.
+To make the smart contract we used the solidity and in solidity we use mint and burning function . In this program we have created a smart contract named as MyTokens. In this contract I have specified the name of the token and the total supplied tokens to different addresses. After that we have created two functions for transaction of the tokens. First function is to mint (increase the supply or adding the token ) tokens and the second one is for burn (that decreace the total supply ) tokens from the specified address. These addresses are mapped with balances which holds the value of the tokens in that particular address.
 
 ## Getting Started
 
@@ -33,7 +33,7 @@ contract MyFirstToken {
 
 After pasting this code you have to compile the code from the left hand sidebar. click on the 'Solidity Compiler' then click on the 'Compile MyToken.sol' button.
 
-After the successful compilation of the code you have to deploy the program. For that you have again another option on the left sidebar that is 'Deploy & Run Transactions' and then you will see a deploy button; before clicking on it make sure that the file showing there is 'MyToken.sol'. Then you will be able to see the file in the 'Deployed/Unpinned Contracts' click on that now all the public variable and functions are visible to you now execute and fetch the values according to you.
+In this firstly we need to write the code in appropriate manner then it will automaticaly compile the code then we have to deploy . For that you have again another option on the left sidebar that is 'Deploy & Run Transactions' and then you will see a deploy button; before clicking on it make sure that the file showing there is 'MyTokens.sol'. Then you will be able to see the file in the 'Deployed/Unpinned Contracts' click on that now all the public variable and functions are visible to you now execute and fetch the values according to you.
 
 
 ## Authors
